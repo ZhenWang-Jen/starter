@@ -1,0 +1,41 @@
+header {
+    background-color: var(--header-bg-color);
+    color: var(--header-color);
+    font-size: var(--header-font-size);
+    padding: var(--header-padding);
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header > .logo {
+    /* To make the <a> the same height as its img */
+    /* Ref. https://stackoverflow.com/questions/18585069/why-anchor-tag-does-not-take-height-and-width-of-its-containing-element */
+    line-height: 0;
+    display: inline-block;
+}
+
+header > nav {
+    margin: var(--header-nav-spacing);
+}
+
+header > nav > a {
+    color: var(--header-color);
+    margin: var(--header-item-spacing);
+    text-decoration: none;
+    padding: 1em;
+    border:1px solid #bbb;
+}
+
+header > nav > a:hover {
+    background-color: #111;
+}
+
+header > nav > .active {
+    border-bottom: 3px solid var(--header-color);
+}
+  
