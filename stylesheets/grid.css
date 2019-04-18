@@ -1,0 +1,25 @@
+main {
+  margin-top: calc(var(--header-logo-height) + 2 * var(--header-padding-top));
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: var(--grid-gap);
+  background-color: var(--main-bg-color);
+  padding: var(--grid-padding);
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1em 0;
+  font-size: 30px;
+}
+
+.grid-container {
+  grid-template-columns: var(--grid-columns);
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

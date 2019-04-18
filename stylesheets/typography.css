@@ -1,0 +1,67 @@
+
+  p {
+    font-size: var(--base-font-size);
+    color: var(--text-color); 
+  } 
+
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: var(--h1-font-size);
+  font-weight: var(--h1-font-weight);
+  font-style: var(--h1-font-style);
+  line-height: var(--h1-line-height);
+  letter-spacing: var(--h1-letter-spacing);
+  color: var(--h1-color);
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: var(--h2-font-size);
+  font-weight: var(--h2-font-weight);
+  font-style: var(--h2-font-style);
+  line-height: var(--h2-line-height);
+  letter-spacing: var(--h2-letter-spacing);
+  color: var(--h2-color);
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: var(--h3-font-size);
+  font-weight: var(--h3-font-weight);
+  font-style: var(--h3-font-style);
+  line-height: var(--h3-line-height);
+  letter-spacing: var(--h3-letter-spacing);
+  color: var(--h3-color);
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: var(--h4-font-size);
+  font-weight: var(--h4-font-weight);
+  font-style: var(--h4-font-style);
+  line-height: var(--h4-line-height);
+  letter-spacing: var(--h4-letter-spacing);
+  color: var(--h4-color);
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: var(--base-font-size);
+  font-weight: var(--p-font-weight);
+  font-style: var(--p-font-style);
+  line-height: var(--p-line-height);
+  letter-spacing: var(--p-letter-spacing);
+  color: var(--p-color);
+}
+
+small {
+  font-family: 'Open Sans', sans-serif;
+  font-size: var(--small-font-size);
+  font-weight: var(--small-font-weight);
+  font-style: var(--small-font-style);
+  line-height: var(--small-line-height);
+  letter-spacing: var(--small-letter-spacing);
+  color: var(--small-color);
+}

@@ -1,0 +1,131 @@
+/* The :root selector allows you to target the highest-level element in the DOM, or document tree. */
+:root {
+  /* font-size: var(--size)px WRONG */
+  --base-font-size: 16px;
+  --primary-red: #d32323;
+  --primary-blue: #0073bb;
+  --primary-yellow: #FFE01B;
+  --main-bg-color: #0073bb;
+  --text-color: brown;
+
+  --grid-columns: fit-content(100%) auto;
+  --grid-gap: 1.5em;
+  --grid-padding: 1em;
+
+  --max-width: 1000px;
+  --smallscreen: 480px;
+}
+
+/* @media (max-width: calc(var(--min-width) - 1px)) {} */
+/* @media screen and (max-width: var(--max-width)) { */
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  :root {
+    --base-font-size: 18px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  :root {
+    --base-font-size: 20px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  :root {
+    --base-font-size: 25px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  :root {
+    --base-font-size: 30px;
+  }
+}
+
+/* Locally scoped variables. */
+h1 {
+  --h1-font-size: 55px;
+  --h1-font-weight: 400;
+  --h1-font-style: normal;
+  --h1-line-height: 83px;
+  --h1-letter-spacing: 0px;
+  --h1-color: #ffffff;
+}
+
+h2 {
+  --h2-font-size: 39px;
+  --h2-font-weight: 400;
+  --h2-font-style: normal;
+  --h2-line-height: 59px;
+  --h2-letter-spacing: 0px;
+  --h2-color: #ffffff;
+}
+
+h3 {
+  --h3-font-size: 28px;
+  --h3-font-weight: 400;
+  --h3-font-style: normal;
+  --h3-line-height: 42px;
+  --h3-letter-spacing: 0px;
+  --h3-color: #000000;
+}
+
+h4 {
+  --h4-font-size: 20px;
+  --h4-font-weight: 400;
+  --h4-font-style: normal;
+  --h4-line-height: 30px;
+  --h4-letter-spacing: 0px;
+  --h4-color: #000000;
+}
+
+h5 {
+  --h5-font-size: 18px;
+  --h5-font-weight: 400;
+  --h5-font-style: normal;
+  --h5-line-height: 25px;
+  --h5-letter-spacing: 0px;
+  --h5-color: #000000;
+}
+
+p {
+  /* --base-font-size: 14px; */
+  --p-font-weight: 400;
+  --p-font-style: normal;
+  --p-line-height: 21px;
+  --p-letter-spacing: 0px;
+  --p-color: #000000;
+}
+
+small {
+  --small-font-size: 10px;
+  --small-font-weight: 400;
+  --small-font-style: normal;
+  --small-line-height: 15px;
+  --small-letter-spacing: 0px;
+  --small-color: #000000;
+}
+
+button {
+  --button-bg-color: #f4511e;
+  --button-color: #ffffff;
+}
+
+header {
+  --header-font-size: 1em;
+  --header-color: #ffffff;
+  --header-bg-color: #e433a9;
+  --header-items-postion: right;
+  --header-padding-top: 1.5em;
+  --header-padding: 1.5em 1em;
+  --header-logo-height: 54px;
+  --header-nav-spacing: auto 0;
+  --header-item-spacing: 1em;
+}
